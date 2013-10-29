@@ -7,6 +7,7 @@
 //
 
 #import "DDViewController.h"
+#import "DDUserData.h"
 
 @interface DDViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.users = [DDUserData users];
+    NSLog(@"%@", self.users);
 }
 
 - (void)didReceiveMemoryWarning

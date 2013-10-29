@@ -10,4 +10,5 @@
 
 @interface DDViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *users;
 @end

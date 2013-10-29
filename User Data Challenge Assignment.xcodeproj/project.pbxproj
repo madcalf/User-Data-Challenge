@@ -21,6 +21,11 @@
 		6F83ED79181DF37900BBAEB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F83ED5B181DF37900BBAEB2 /* UIKit.framework */; };
 		6F83ED81181DF37900BBAEB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F83ED7F181DF37900BBAEB2 /* InfoPlist.strings */; };
 		6F83ED83181DF37900BBAEB2 /* User_Data_Challenge_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F83ED82181DF37900BBAEB2 /* User_Data_Challenge_AssignmentTests.m */; };
+		6F83ED8E181DF50200BBAEB2 /* DDUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F83ED8D181DF50200BBAEB2 /* DDUserData.m */; };
+		6F83ED94181DF6E300BBAEB2 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F83ED90181DF6E200BBAEB2 /* person1.jpeg */; };
+		6F83ED95181DF6E300BBAEB2 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F83ED91181DF6E200BBAEB2 /* person2.jpeg */; };
+		6F83ED96181DF6E300BBAEB2 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F83ED92181DF6E300BBAEB2 /* person3.jpg */; };
+		6F83ED97181DF6E300BBAEB2 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F83ED93181DF6E300BBAEB2 /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		6F83ED7E181DF37900BBAEB2 /* User Data Challenge AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge AssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		6F83ED80181DF37900BBAEB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F83ED82181DF37900BBAEB2 /* User_Data_Challenge_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_AssignmentTests.m; sourceTree = "<group>"; };
+		6F83ED8C181DF50200BBAEB2 /* DDUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUserData.h; sourceTree = "<group>"; };
+		6F83ED8D181DF50200BBAEB2 /* DDUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUserData.m; sourceTree = "<group>"; };
+		6F83ED90181DF6E200BBAEB2 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		6F83ED91181DF6E200BBAEB2 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		6F83ED92181DF6E300BBAEB2 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		6F83ED93181DF6E300BBAEB2 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +125,8 @@
 			children = (
 				6F83ED66181DF37900BBAEB2 /* DDAppDelegate.h */,
 				6F83ED67181DF37900BBAEB2 /* DDAppDelegate.m */,
+				6F83ED8C181DF50200BBAEB2 /* DDUserData.h */,
+				6F83ED8D181DF50200BBAEB2 /* DDUserData.m */,
 				6F83ED69181DF37900BBAEB2 /* Main.storyboard */,
 				6F83ED6C181DF37900BBAEB2 /* DDViewController.h */,
 				6F83ED6D181DF37900BBAEB2 /* DDViewController.m */,
@@ -126,6 +139,7 @@
 		6F83ED5E181DF37900BBAEB2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F83ED8F181DF6E200BBAEB2 /* PersonImages */,
 				6F83ED5F181DF37900BBAEB2 /* User Data Challenge Assignment-Info.plist */,
 				6F83ED60181DF37900BBAEB2 /* InfoPlist.strings */,
 				6F83ED63181DF37900BBAEB2 /* main.m */,
@@ -150,6 +164,17 @@
 				6F83ED7F181DF37900BBAEB2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F83ED8F181DF6E200BBAEB2 /* PersonImages */ = {
+			isa = PBXGroup;
+			children = (
+				6F83ED90181DF6E200BBAEB2 /* person1.jpeg */,
+				6F83ED91181DF6E200BBAEB2 /* person2.jpeg */,
+				6F83ED92181DF6E300BBAEB2 /* person3.jpg */,
+				6F83ED93181DF6E300BBAEB2 /* person4.jpeg */,
+			);
+			path = PersonImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F83ED96181DF6E300BBAEB2 /* person3.jpg in Resources */,
+				6F83ED94181DF6E300BBAEB2 /* person1.jpeg in Resources */,
 				6F83ED70181DF37900BBAEB2 /* Images.xcassets in Resources */,
 				6F83ED62181DF37900BBAEB2 /* InfoPlist.strings in Resources */,
+				6F83ED97181DF6E300BBAEB2 /* person4.jpeg in Resources */,
 				6F83ED6B181DF37900BBAEB2 /* Main.storyboard in Resources */,
+				6F83ED95181DF6E300BBAEB2 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F83ED8E181DF50200BBAEB2 /* DDUserData.m in Sources */,
 				6F83ED68181DF37900BBAEB2 /* DDAppDelegate.m in Sources */,
 				6F83ED6E181DF37900BBAEB2 /* DDViewController.m in Sources */,
 				6F83ED64181DF37900BBAEB2 /* main.m in Sources */,
