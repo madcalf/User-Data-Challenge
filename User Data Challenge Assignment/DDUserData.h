@@ -16,12 +16,6 @@
 
 @interface DDUserData : NSObject
 
-//@property (strong, nonatomic) NSString *username;
-//@property (strong, nonatomic) NSString *email;
-//@property (strong, nonatomic) NSString *password;
-//@property (nonatomic) int age;
-//@property (strong, nonatomic) UIImage *image;
-
 +(NSArray *) users;
 
 @end

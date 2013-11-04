@@ -90,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F653EC31827390B00DDA804 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F83ED8C181DF50200BBAEB2 /* DDUserData.h */,
+				6F83ED8D181DF50200BBAEB2 /* DDUserData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		6F83ED4B181DF37900BBAEB2 = {
 			isa = PBXGroup;
 			children = (
@@ -125,11 +134,10 @@
 			children = (
 				6F83ED66181DF37900BBAEB2 /* DDAppDelegate.h */,
 				6F83ED67181DF37900BBAEB2 /* DDAppDelegate.m */,
-				6F83ED8C181DF50200BBAEB2 /* DDUserData.h */,
-				6F83ED8D181DF50200BBAEB2 /* DDUserData.m */,
 				6F83ED69181DF37900BBAEB2 /* Main.storyboard */,
 				6F83ED6C181DF37900BBAEB2 /* DDViewController.h */,
 				6F83ED6D181DF37900BBAEB2 /* DDViewController.m */,
+				6F653EC31827390B00DDA804 /* Model */,
 				6F83ED6F181DF37900BBAEB2 /* Images.xcassets */,
 				6F83ED5E181DF37900BBAEB2 /* Supporting Files */,
 			);
@@ -491,6 +499,7 @@
 				6F83ED88181DF37900BBAEB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F83ED89181DF37900BBAEB2 /* Build configuration list for PBXNativeTarget "User Data Challenge AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +508,7 @@
 				6F83ED8B181DF37900BBAEB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
